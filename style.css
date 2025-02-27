@@ -1,0 +1,56 @@
+body{
+    background-color: #FFFDD0;
+display: flex;
+
+}
+main{
+    display: flex;
+    background-color: #eeffd0;
+    border-radius: 20px;
+    border: solid white 3px;
+    
+}
+
+figure{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.pai{
+    display: flex;
+    background-color: #b3b292;
+    border-top: solid 2px white;
+    height: 400px;
+
+}
+
+
+.primeiraimg{
+    filter: drop-shadow( 50px 56px 50px #0b0b0b );
+    
+}
+
+.filhodois{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+
+.tamanhodaletradofilhodois{
+    font-size: 30px;
+}
+
+@media screen and (max-width:800px){
+    
+  div{
+flex-direction: column; 
+  }
+  
+}
+
+
